@@ -1,0 +1,131 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carbon Footprint Test</title>
+    <link rel="stylesheet" href="/quiz.css" />
+    <script src="/quiz.js" defer=""></script>
+  </head>
+
+  <body class="full-viewp">
+    <main class="full-cg">
+      <section id="questionContainer">
+        <div class="counter">
+          <p class="counter_title">QUESTION</p>
+          <div id="counter_number" data-total="25">1</div>
+        </div>
+        <div class="question">
+          <h1 id="mainQuestion">
+            When you travel by car, how often do you carpool?
+          </h1>
+
+          <div class="question_c">
+            <input
+              type="radio"
+              name="question1"
+              id="q1"
+              value="0"
+              autocomplete="off"
+            />
+            <label for="q1" class="question_mc">
+              <span class="question_mc-op">1</span>
+              0% - 20%
+            </label>
+          </div>
+
+          <div class="question_c">
+            <input
+              type="radio"
+              name="question1"
+              id="q2"
+              value="1"
+              autocomplete="off"
+            />
+            <label for="q2" class="question_mc">
+              <span class="question_mc-op">2</span>
+              21% - 40%
+            </label>
+          </div>
+
+          <div class="question_c">
+            <input
+              type="radio"
+              name="question1"
+              id="q3"
+              value="2"
+              autocomplete="off"
+            />
+            <label for="q3" class="question_mc">
+              <span class="question_mc-op">3</span>
+              41% - 60%
+            </label>
+          </div>
+
+          <div class="question_c">
+            <input
+              type="radio"
+              name="question1"
+              id="q4"
+              value="3"
+              autocomplete="off"
+            />
+            <label for="q4" class="question_mc">
+              <span class="question_mc-op">4</span>
+              61% - 80%
+            </label>
+          </div>
+
+          <div class="question_c">
+            <input
+              type="radio"
+              name="question1"
+              id="q5"
+              value="4"
+              autocomplete="off"
+            />
+            <label for="q5" class="question_mc">
+              <span class="question_mc-op">5</span>
+              81% - 100%
+            </label>
+          </div>
+
+          <button
+            id="next"
+            type="button"
+            class="primary-btn"
+            onclick="change()"
+          >
+            Next
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script>
+    let i = 0;
+    let arr = [
+      "How often do you eat animal-based products?",
+      "How much of the food that you eat is unprocesed, unpackaged or locally grown?",
+      "How many hours do you fly each year?",
+      "How far do you travel by car or motorcycle each week? (100% means > 500kms and 0% means < 5kms)",
+      "Compared to your neightbours, how much trash do you generate?",
+      "How far do you travel on public transportation each week? (100% means > 500kms and 0% means < 5kms)",
+      "How frequently do you dispose of old items?",
+      "What percentage of your home's electricity comes from renewable sources?",
+      "How often do you leave lights, electronics, or appliances on when not in use?",
+      "How energy efficient is your home?",
+      "How well insulated is your home?",
+      "How often do you use air conditioning at your home?",
+      "How often do you use gas or electric  heating?",
+      "How frequently do you participate in any carbon offsetting programs or initiatives?",
+      "How often do you enculcate in eco-friendly habits?",
+    ];
+
+    function change() {
+      document.getElementById("mainQuestion").innerHTML = arr[i];
+      document.getElementById("counter_number").innerHTML = i + 2;
+      i++;
+    }
+  </script>
+</html>
