@@ -1,0 +1,191 @@
+body {
+    background-color: #CE7BB0;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    color: white;
+    font-size: 5rem;
+   
+}
+
+.btn1 {
+    margin-left: 5rem;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: rgb(56, 51, 51);
+    border-color: #CE7BB0;
+}
+
+.btn2 {
+    margin-left: 2rem;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: rgb(56, 51, 51);
+    border-color: #CE7BB0;
+}
+
+.apple {
+    margin-right: 0.4rem;
+}
+
+.playstore {
+    margin-right: 0.4rem;
+}
+
+.img1 {
+    padding: 5rem;
+    position: absolute;
+    margin-top: -22rem;
+    margin-left: 14rem;
+    height: 37rem;
+}
+
+.signin-btn {
+    margin-right: 3rem;
+    width: 10rem;
+    margin-bottom: 1.5rem;
+}
+
+.signin-btn:hover {
+    background-color: white;
+    color: rgb(56, 51, 51);
+    border-color: #CE7BB0;
+}
+
+.logo {
+    width: 12rem;
+}
+
+.nav-home {
+    font-size: 1.5rem;
+}
+
+.nav-about {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.nav-features {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.text1 {
+    margin-left: 40rem;
+    margin-top: 10rem;
+    width: 50rem;
+}
+
+.text1 {
+    color: white;
+    margin-top: 10rem;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.img2 {
+    position: absolute;
+    height: 20rem;
+    margin-top: -9rem;
+    margin-left: 5rem;
+}
+
+.text2 {
+    color: white;
+    margin-top: 20rem;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-left: 4rem;
+}
+
+.img3 {
+    margin-top: -8rem;
+    margin-left: 60rem;
+    height: 20rem;
+}
+
+.line {
+    color: white;
+}
+
+.footer-logo {
+    margin-top: 15rem;
+}
+
+.debt-text {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1.15rem;
+    margin-top: -10rem;
+    margin-left: 4rem;
+    letter-spacing: 3px;
+}
+
+.text3 {
+    margin-top: 10rem;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.text4{
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.15rem;
+
+}
+
+.dwnld-btn {
+    margin-top: 2rem;
+    margin-left: 41rem;
+    margin-bottom: 3rem;
+}
+
+.dwnld-btn:hover {
+    background-color: white;
+    color: rgb(56, 51, 51);
+    border-color: #CE7BB0;
+}
+
+.about {
+    margin-left: 30rem;
+    margin-top:-23rem;
+    color: white;
+}
+
+.services {
+    margin-left: 50rem;
+    margin-top:-9.50rem;
+    color: white;
+}
+
+.talk {
+    margin-top: -9.3rem;
+    margin-left: 70rem;
+    color: white;
+}
+
+.nav-community {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+
+}
+
+/* AFTER LOGGING IN */
+
+.pfp {
+    height: 2.5rem;
+    margin-left: 37rem;
+}
