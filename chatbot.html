@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="chatbot.css">
+  </head>
+  <body>
+    <link rel="stylesheet" href="{{request.host_url}}static/DashboardStyle.css">
+    <div>
+        <div class="row">
+            <div class="col-md-3">
+                <div style="margin-top:20px;height:800px;width:100%;background-color:#6867AC;">
+                   <div style="padding-top:30px;">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="avatar_circle.svg" style="border-radius:50%;width:40px;height:40px;margin:20px;"/>
+                        </div>
+                        <div class="col-md-10">
+                            <h4 style="color:white;margin-top:20px;margin-left:10px;">Welcome to our Chatbot</h4>
+                        </div>
+                    </div>
+                   
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div id="chatbotbox" style="padding:20px;">
+                    <div id="bot1">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <p style="background-color:#FFBCD1;padding:10px;border-radius:20px;">Hey there ! How may I help you today.</p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="chatbot.svg" style="border-radius:50%;width:40px;height:40px;"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="user1">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <img src="avatar_circle.svg" style="border-radius:50%;width:40px;height:40px;margin:10px;"/>
+                            </div>
+                            <div class="col-md-11">
+                                <p id="answer" class="user1ans1" style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Suggest ways on how to improve current saving</p>
+                                <p id="answer" class="user1ans2" style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Are real estate investments worth it ?</p>
+                                <p id="answer" class="user1ans7" style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Tell me about bitcoins ?</p> 
+                            </div>
+                        </div>
+                    </div>
+                 
+          
+                    <br>
+                   <div id="bot2b">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <p style="background-color:#FFBCD1;padding:10px;border-radius:20px;">Do you wish to talk to an expert?</p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="chatbot.svg" style="border-radius:50%;width:40px;height:40px;"/>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="user2b">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <img src="avatar_circle.svg" style="border-radius:50%;width:40px;height:40px;margin:10px;"/>
+                            </div>
+                            <div class="col-md-11">
+                                <p id="answer" class="helpline" style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Yes.</p>
+                                <p id="answer" class="suggestions" style="margin:10px;float:left;background-color:white;padding:10px;border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">No.</p>
+                            </div>
+                        </div>
+                       </div><br><br>
+
+
+                       <div id="bot3b">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <p style="background-color:#FFBCD1;padding:10px;border-radius:20px;">Alright, please <a href = "https://pib.gov.in/PressReleasePage.aspx?PRID=1652240"><span>visit here</span></a> or call on 1800-599-0019. It is a 24x7 Toll-Free Mental Health Rehabilitation Helpline  </p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="chatbot.svg" style="border-radius:50%;width:40px;height:40px;"/>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="bot3b2">
+                        <div class="row">
+                            <div class="col-md-11">
+                                
+                                <p style="background-color:#FFBCD1;padding:10px;border-radius:20px;" >Maybe some of these might help:
+                                <li>Calm you nerves by doing meditation. Here’s a <a href="https://youtu.be/O-6f5wQXSu8">link</a> to a video which might help. 
+                                </li>
+                                <li>Create a budget: It is essential to know how much you earn and how much you spend. Creating a budget helps you to identify areas where you can cut back on expenses and save more.</li>
+                                <li>SAutomate your savings: Set up an automatic transfer from your checking account to a savings account. This way, you won't have to think about saving every month.</li>
+                                
+                                </p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="chatbot.svg" style="border-radius:50%;width:40px;height:40px;"/>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+                    <div id="bot2c">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <img src="bitcoin.jpg" style="width:300px;height:300px; margin-left :100px" />
+                                <!-- <p style="background-color:#ECDBFA;padding:10px;border-radius:20px;">What do pre-teen ducks hate? Voice quacks.</p> -->
+                            </div>
+                            <div class="col-md-1">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="bot4a">
+                        <div class="row">
+                            <div class="col-md-11"> <p style="background-color:#FFBCD1;padding:10px;border-radius:20px;" >Maybe some of these might help:
+                
+                                <li>Create a budget: It is essential to know how much you earn and how much you spend. Creating a budget helps you to identify areas where you can cut back on expenses and save more.</li>
+                                <li>Automate your savings: Set up an automatic transfer from your checking account to a savings account. This way, you won't have to think about saving every month.</li>
+                
+                                </p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="chatbot.svg" style="border-radius:50%;width:40px;height:40px;"/>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div id="botmusic">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <p style="background-color:#FFBCD1;padding:10px;border-radius:20px; font-size:30px; font-family: poppins">“Just when the caterpillar thought the world was ending, he turned into a butterfly.”</p> 
+                                <!-- <p style="background-color:#D5F5E3;padding:10px;border-radius:20px;">Alright, <a href = "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR" >click here</a></p> -->
+                                <p style="background-color:#FFBCD1;padding:10px;border-radius:20px;">Alright, let me take you there. Please <a href = "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR" >click here </a> to continue. </p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="chatbot.svg" style="border-radius:50%;width:40px;height:40px;"/>
+                            </div>
+                        </div>
+                    </div>
+    
+<!-- here -->
+
+
+                    <div id="botappointment">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <p style="background-color:#FFBCD1;padding:10px;border-radius:20px; font-size:30px; font-family: poppins">"What I love about therapy is that they'll tell you what your blind spots are. Although that's uncomfortable and painful, it gives you something to work with." </p>
+                                
+                                <p style="background-color:#FFBCD1;padding:10px;border-radius:20px;">Please <a href = "/services" >click here </a> to connect with a professional. </p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="chatbot.svg" style="border-radius:50%;width:40px;height:40px;"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="bottest">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <p style="background-color:#FFBCD1;padding:10px;border-radius:20px; font-size:30px; font-family: poppins"> “You don’t have to control your thoughts. You just have to stop letting them control you.” </p> 
+                               
+                                <p style="background-color:#FFBCD1;padding:10px;border-radius:20px;">Please <a href = "/test-info" >click here </a> to continue. </p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="chatbot.svg" style="border-radius:50%;width:40px;height:40px;"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="botcommunity">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <p style="background-color:#FFBCD1;padding:10px;border-radius:20px; font-size:30px; font-family: poppins"> “Take a shower, wash off the day. Drink a glass of water. Make the room dark. Lie down and close your eyes. Notice the silence. Notice your heart. Still beating. Still fighting. You made it, after all. You made it, another day. And you can make it one more. You’re doing just fine.” </p> 
+                                <!-- <p style="background-color:#D5F5E3;padding:10px;border-radius:20px;">Alright, <a href = "/Connect" >click here</a></p> -->
+                            </div>
+                            <div class="col-md-1">
+                                <img src="chatbot.svg" style="border-radius:50%;width:40px;height:40px;"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="botaboutus">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <!-- <p style="background-color:#D5F5E3;padding:10px;border-radius:20px;">Alright, <a href = "https://open.spotify.com/playlist/6gCC8kozvUlLGTzl2YO2MR" >click here</a></p> -->
+                                <p style="background-color:#FFBCD1;padding:10px;border-radius:20px;">Alright, please <a href = "/aboutus" >click here </a> to know more about us. </p>
+                            </div>
+                            <div class="col-md-1">
+                                <img src="chatbot.svg" style="border-radius:50%;width:40px;height:40px;"/>
+                            </div>
+                        </div>
+                    </div>
+
+               </div><br><br>
+
+
+
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="chatbot.js"></script>
+
+  </body>
+ </html>
+    
+    
+   <!-- <a href="/dashboard"></a> -->
