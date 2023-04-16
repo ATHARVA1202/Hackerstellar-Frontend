@@ -31,7 +31,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-    background: #8a2fce;
+    background: #FFBCD1;
     border-radius: 5rem;
 }
 
@@ -43,7 +43,7 @@ section {
     padding-bottom: 2rem;
     text-align: center;
     font-size: 3.5rem;
-    color: #8a2fce;
+    color: #FFBCD1;
 }
 
 .heading span {
@@ -57,7 +57,7 @@ section {
     padding: .8rem 2.8rem;
     border-radius: 5rem;
     border-top-left-radius: 0;
-    border: 0.2rem solid #30076a;
+    border: 0.2rem solid #6867AC;
     cursor: pointer;
     background: none;
     color: #8a2fce;
@@ -74,7 +74,7 @@ section {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #8a2fce;
+    background: #CE7BB0;
     z-index: -1;
     -webkit-transition: .2s linear;
     transition: .2s linear;
@@ -145,7 +145,7 @@ section {
 }
 
 .header .logo i {
-    color: #8a2fce;
+    color: #CE7BB0;
 }
 
 .header .navbar a {
@@ -155,7 +155,7 @@ section {
 }
 
 .header .navbar a:hover {
-    color: #8a2fce;
+    color: #CE7BB0;
 
 }
 
@@ -314,7 +314,7 @@ body {
 }
 
 .tweetBox__tweetButton {
-    background-color: #8a2fce;
+    background-color: #CE7BB0;
     border: none;
     color: white;
     font-weight: 900;
@@ -437,6 +437,7 @@ body {
 
 .helpline-numbers {
     font-size: 16px;
+
 }
 
 .sidebar-hn,
